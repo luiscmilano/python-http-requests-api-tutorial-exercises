@@ -1,6 +1,5 @@
 import requests
 
-url = "https://assets.breatheco.de/apis/fake/sample/404-example.php"
-response = requests.get(url)
+response = requests.get('https://assets.breatheco.de/apis/fake/sample/hello.php')
 
-print("The response status is: "+str(response.status_code))
+print(response.status_code)
